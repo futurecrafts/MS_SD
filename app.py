@@ -19,7 +19,7 @@ headers = {"Authorization": "Bearer "+ HuggingFace_API_KEY}
 
 app = FastAPI()
 origins = [
-    "http://localhost:3000"
+    "https://life-hacker.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
